@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E316D041C29C6450032C8EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E316D031C29C6450032C8EB /* main.m */; };
+		8E316D071C29C6450032C8EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E316D061C29C6450032C8EB /* AppDelegate.m */; };
+		8E316D0A1C29C6450032C8EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E316D091C29C6450032C8EB /* ViewController.m */; };
+		8E316D0D1C29C6450032C8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E316D0B1C29C6450032C8EB /* Main.storyboard */; };
+		8E316D0F1C29C6450032C8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E316D0E1C29C6450032C8EB /* Assets.xcassets */; };
+		8E316D121C29C6450032C8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E316D101C29C6450032C8EB /* LaunchScreen.storyboard */; };
+		8E316D1D1C29C6450032C8EB /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E316D1C1C29C6450032C8EB /* ____________Tests.m */; };
+		8E316D281C29C6450032C8EB /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E316D271C29C6450032C8EB /* ____________UITests.m */; };
+		8E316D371C29C65C0032C8EB /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E316D351C29C65C0032C8EB /* abc.png */; };
+		8E316D381C29C65C0032C8EB /* abc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E316D361C29C65C0032C8EB /* abc2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E316D191C29C6450032C8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E316CF71C29C6450032C8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E316CFE1C29C6450032C8EB;
+			remoteInfo = "图片与文字的渐变颜色处理";
+		};
+		8E316D241C29C6450032C8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E316CF71C29C6450032C8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E316CFE1C29C6450032C8EB;
+			remoteInfo = "图片与文字的渐变颜色处理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E316CFF1C29C6450032C8EB /* 图片与文字的渐变颜色处理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片与文字的渐变颜色处理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E316D031C29C6450032C8EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E316D051C29C6450032C8EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E316D061C29C6450032C8EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E316D081C29C6450032C8EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E316D091C29C6450032C8EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E316D0C1C29C6450032C8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E316D0E1C29C6450032C8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E316D111C29C6450032C8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E316D131C29C6450032C8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E316D181C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片与文字的渐变颜色处理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E316D1C1C29C6450032C8EB /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		8E316D1E1C29C6450032C8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E316D231C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片与文字的渐变颜色处理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E316D271C29C6450032C8EB /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
+		8E316D291C29C6450032C8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E316D351C29C65C0032C8EB /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		8E316D361C29C65C0032C8EB /* abc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E316CFC1C29C6450032C8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E316D151C29C6450032C8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E316D201C29C6450032C8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E316CF61C29C6450032C8EB = {
+			isa = PBXGroup;
+			children = (
+				8E316D011C29C6450032C8EB /* 图片与文字的渐变颜色处理 */,
+				8E316D1B1C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests */,
+				8E316D261C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests */,
+				8E316D001C29C6450032C8EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E316D001C29C6450032C8EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E316CFF1C29C6450032C8EB /* 图片与文字的渐变颜色处理.app */,
+				8E316D181C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests.xctest */,
+				8E316D231C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E316D011C29C6450032C8EB /* 图片与文字的渐变颜色处理 */ = {
+			isa = PBXGroup;
+			children = (
+				8E316D351C29C65C0032C8EB /* abc.png */,
+				8E316D361C29C65C0032C8EB /* abc2.png */,
+				8E316D051C29C6450032C8EB /* AppDelegate.h */,
+				8E316D061C29C6450032C8EB /* AppDelegate.m */,
+				8E316D081C29C6450032C8EB /* ViewController.h */,
+				8E316D091C29C6450032C8EB /* ViewController.m */,
+				8E316D0B1C29C6450032C8EB /* Main.storyboard */,
+				8E316D0E1C29C6450032C8EB /* Assets.xcassets */,
+				8E316D101C29C6450032C8EB /* LaunchScreen.storyboard */,
+				8E316D131C29C6450032C8EB /* Info.plist */,
+				8E316D021C29C6450032C8EB /* Supporting Files */,
+			);
+			path = "图片与文字的渐变颜色处理";
+			sourceTree = "<group>";
+		};
+		8E316D021C29C6450032C8EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E316D031C29C6450032C8EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E316D1B1C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E316D1C1C29C6450032C8EB /* ____________Tests.m */,
+				8E316D1E1C29C6450032C8EB /* Info.plist */,
+			);
+			path = "图片与文字的渐变颜色处理Tests";
+			sourceTree = "<group>";
+		};
+		8E316D261C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E316D271C29C6450032C8EB /* ____________UITests.m */,
+				8E316D291C29C6450032C8EB /* Info.plist */,
+			);
+			path = "图片与文字的渐变颜色处理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E316CFE1C29C6450032C8EB /* 图片与文字的渐变颜色处理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E316D2C1C29C6450032C8EB /* Build configuration list for PBXNativeTarget "图片与文字的渐变颜色处理" */;
+			buildPhases = (
+				8E316CFB1C29C6450032C8EB /* Sources */,
+				8E316CFC1C29C6450032C8EB /* Frameworks */,
+				8E316CFD1C29C6450032C8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片与文字的渐变颜色处理";
+			productName = "图片与文字的渐变颜色处理";
+			productReference = 8E316CFF1C29C6450032C8EB /* 图片与文字的渐变颜色处理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E316D171C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E316D2F1C29C6450032C8EB /* Build configuration list for PBXNativeTarget "图片与文字的渐变颜色处理Tests" */;
+			buildPhases = (
+				8E316D141C29C6450032C8EB /* Sources */,
+				8E316D151C29C6450032C8EB /* Frameworks */,
+				8E316D161C29C6450032C8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E316D1A1C29C6450032C8EB /* PBXTargetDependency */,
+			);
+			name = "图片与文字的渐变颜色处理Tests";
+			productName = "图片与文字的渐变颜色处理Tests";
+			productReference = 8E316D181C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E316D221C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E316D321C29C6450032C8EB /* Build configuration list for PBXNativeTarget "图片与文字的渐变颜色处理UITests" */;
+			buildPhases = (
+				8E316D1F1C29C6450032C8EB /* Sources */,
+				8E316D201C29C6450032C8EB /* Frameworks */,
+				8E316D211C29C6450032C8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E316D251C29C6450032C8EB /* PBXTargetDependency */,
+			);
+			name = "图片与文字的渐变颜色处理UITests";
+			productName = "图片与文字的渐变颜色处理UITests";
+			productReference = 8E316D231C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E316CF71C29C6450032C8EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = rason;
+				TargetAttributes = {
+					8E316CFE1C29C6450032C8EB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8E316D171C29C6450032C8EB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8E316CFE1C29C6450032C8EB;
+					};
+					8E316D221C29C6450032C8EB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8E316CFE1C29C6450032C8EB;
+					};
+				};
+			};
+			buildConfigurationList = 8E316CFA1C29C6450032C8EB /* Build configuration list for PBXProject "图片与文字的渐变颜色处理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E316CF61C29C6450032C8EB;
+			productRefGroup = 8E316D001C29C6450032C8EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E316CFE1C29C6450032C8EB /* 图片与文字的渐变颜色处理 */,
+				8E316D171C29C6450032C8EB /* 图片与文字的渐变颜色处理Tests */,
+				8E316D221C29C6450032C8EB /* 图片与文字的渐变颜色处理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E316CFD1C29C6450032C8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E316D371C29C65C0032C8EB /* abc.png in Resources */,
+				8E316D381C29C65C0032C8EB /* abc2.png in Resources */,
+				8E316D121C29C6450032C8EB /* LaunchScreen.storyboard in Resources */,
+				8E316D0F1C29C6450032C8EB /* Assets.xcassets in Resources */,
+				8E316D0D1C29C6450032C8EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E316D161C29C6450032C8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E316D211C29C6450032C8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E316CFB1C29C6450032C8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E316D0A1C29C6450032C8EB /* ViewController.m in Sources */,
+				8E316D071C29C6450032C8EB /* AppDelegate.m in Sources */,
+				8E316D041C29C6450032C8EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E316D141C29C6450032C8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E316D1D1C29C6450032C8EB /* ____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E316D1F1C29C6450032C8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E316D281C29C6450032C8EB /* ____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E316D1A1C29C6450032C8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E316CFE1C29C6450032C8EB /* 图片与文字的渐变颜色处理 */;
+			targetProxy = 8E316D191C29C6450032C8EB /* PBXContainerItemProxy */;
+		};
+		8E316D251C29C6450032C8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E316CFE1C29C6450032C8EB /* 图片与文字的渐变颜色处理 */;
+			targetProxy = 8E316D241C29C6450032C8EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E316D0B1C29C6450032C8EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E316D0C1C29C6450032C8EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E316D101C29C6450032C8EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E316D111C29C6450032C8EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E316D2A1C29C6450032C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E316D2B1C29C6450032C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E316D2D1C29C6450032C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片与文字的渐变颜色处理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rason.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E316D2E1C29C6450032C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片与文字的渐变颜色处理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rason.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E316D301C29C6450032C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "图片与文字的渐变颜色处理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rason.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图片与文字的渐变颜色处理.app/图片与文字的渐变颜色处理";
+			};
+			name = Debug;
+		};
+		8E316D311C29C6450032C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "图片与文字的渐变颜色处理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rason.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图片与文字的渐变颜色处理.app/图片与文字的渐变颜色处理";
+			};
+			name = Release;
+		};
+		8E316D331C29C6450032C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "图片与文字的渐变颜色处理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rason.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "图片与文字的渐变颜色处理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E316D341C29C6450032C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "图片与文字的渐变颜色处理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rason.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "图片与文字的渐变颜色处理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E316CFA1C29C6450032C8EB /* Build configuration list for PBXProject "图片与文字的渐变颜色处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E316D2A1C29C6450032C8EB /* Debug */,
+				8E316D2B1C29C6450032C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E316D2C1C29C6450032C8EB /* Build configuration list for PBXNativeTarget "图片与文字的渐变颜色处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E316D2D1C29C6450032C8EB /* Debug */,
+				8E316D2E1C29C6450032C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E316D2F1C29C6450032C8EB /* Build configuration list for PBXNativeTarget "图片与文字的渐变颜色处理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E316D301C29C6450032C8EB /* Debug */,
+				8E316D311C29C6450032C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E316D321C29C6450032C8EB /* Build configuration list for PBXNativeTarget "图片与文字的渐变颜色处理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E316D331C29C6450032C8EB /* Debug */,
+				8E316D341C29C6450032C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E316CF71C29C6450032C8EB /* Project object */;
+}
